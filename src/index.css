@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-purple: #7C3AED;
+  --color-brand-dark: #0F0F1A;
+  --color-brand-teal: #10B981;
+  --color-brand-gray: #9CA3AF;
+}
+
+body {
+  background-color: var(--color-brand-dark);
+  color: #FFFFFF;
+  font-family: var(--font-sans);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
