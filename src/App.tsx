@@ -79,13 +79,10 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col font-sans bg-brand-dark selection:bg-brand-purple/30">
       {/* Navigation */}
-      <nav className="w-full h-[50px] flex items-center justify-between px-4 lg:px-8 border-b border-white/5 shrink-0">
+      <nav className="w-full h-[50px] flex items-center justify-center sm:justify-start px-4 lg:px-8 border-b border-white/5 shrink-0">
         <div className="font-bold tracking-widest text-sm sm:text-base">
           <span className="text-white">GROWTH LAB</span> <span className="text-brand-purple">MEDIA</span>
         </div>
-        <a href="https://growthlabmedia.com" className="text-brand-gray hover:text-white text-xs sm:text-sm transition-colors">
-          &larr; Back to site
-        </a>
       </nav>
 
       {/* Main Content */}
@@ -107,7 +104,7 @@ export default function App() {
             </h1>
             
             <p className="text-brand-gray text-sm sm:text-lg text-center lg:text-left mb-6 lg:mb-10">
-              45 minutes. No pressure. Let's map your growth engine.
+              30 minutes. No pressure. Let's map your growth engine.
             </p>
 
             {/* Desktop Supporting Content */}
